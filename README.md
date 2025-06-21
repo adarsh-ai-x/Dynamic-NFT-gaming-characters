@@ -84,37 +84,8 @@ We envision a future where players can take their characters across multiple gam
 - MetaMask or compatible Web3 wallet
 - Sufficient ETH for gas fees
 
-### Installation
-```bash
-# Create project directory
-mkdir dynamic-nft-gaming-characters
-cd dynamic-nft-gaming-characters
 
-# Initialize Hardhat project
-npm init -y
-npm install --save-dev hardhat
-npx hardhat
 
-# Install OpenZeppelin contracts
-npm install @openzeppelin/contracts
-
-# Install additional dependencies
-npm install --save-dev @nomiclabs/hardhat-ethers ethers chai
-```
-
-### Project Structure
-```
-dynamic-nft-gaming-characters/
-├── contracts/
-│   └── Project.sol
-├── scripts/
-│   └── deploy.js
-├── test/
-│   └── Project.test.js
-├── hardhat.config.js
-├── package.json
-└── README.md
-```
 
 ### Deployment Script (scripts/deploy.js)
 ```javascript
